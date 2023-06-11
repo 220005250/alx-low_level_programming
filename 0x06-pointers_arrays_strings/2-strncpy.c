@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * _strncpy - concatenate strings, defining the size of second string.
  * @dest: string with concatenation
@@ -15,5 +15,5 @@ char *_strncpy(char *dest, char *src, int n)
 	for ( ; i < n; i++)
 		*(dest + i) = '\0';
 	return (dest);
-
+}
 
